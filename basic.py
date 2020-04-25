@@ -18,6 +18,7 @@ def greeting(name="foo"):
     return "Hello "+name
 
 NAME = str(input("What's your name ? "))
+NAME.strip()
 print(greeting(NAME))
 print(NAME.lower())
 print(NAME.upper())
